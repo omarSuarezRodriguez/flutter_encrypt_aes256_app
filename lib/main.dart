@@ -156,7 +156,7 @@ class _AppBodyState extends State<AppBody> {
             IconButton(
               onPressed: () {
                 _alertDialog(
-                  "This app uses AES-256 encryption, the strongest encryption algorithm available and approved by the National Security Agency (NSA) for protecting classified information. \n\nAES-256 provides the best encryption for text, ensuring that sensitive information remains secure.",
+                  "If you want to make the password more complex than just 6 characters, you can modify the code here:\n\n\n https://github.com/omarSuarezRodriguez/flutter_encrypt_aes256_app",
                   "Download code"
                 );
               },
